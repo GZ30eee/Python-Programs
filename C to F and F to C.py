@@ -11,7 +11,4 @@ def convert_temperature():
     else:
         return "Invalid scale. Please enter 'C' for Celsius or 'F' for Fahrenheit."
 
-""" print(convert_temperature(0, "C"))
-print(convert_temperature(32, "F"))   """
-
 print(convert_temperature())
