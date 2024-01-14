@@ -1,0 +1,7 @@
+PRINCIPAL = int(input("ENTER PRINCIPAL: "))
+INTEREST = float(input("ENTER INTEREST: "))
+RATE = float(input("ENTER RATE: "))
+
+SI = ((PRINCIPAL*INTEREST*RATE)/100)
+
+print("YPUR SIMPLE INTERSET IS: ", SI)
